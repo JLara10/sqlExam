@@ -280,5 +280,9 @@ mysql> select * from movies;
 | Transformers    |     143 | Action    |        5.1 | PG-13  |  7 |
 +-----------------+---------+-----------+------------+--------+----+
 5 rows in set (0.03 sec)
+mysql> drop table movies;
+Query OK, 0 rows affected (0.22 sec)
 
+mysql> drop database movies_db;
+Query OK, 0 rows affected (0.12 sec)
 mysql> 
